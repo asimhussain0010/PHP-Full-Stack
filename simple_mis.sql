@@ -47,11 +47,11 @@ CREATE TABLE IF NOT EXISTS `attendance` (
   CONSTRAINT `attendance_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Insert default HR account
+-- Insert default HR account with plain password 'password'
 INSERT INTO `users` (`username`, `password`, `role`, `fullname`, `email`, `department`, `position`) VALUES
-('hradmin', 'hradmin', 'hr', 'HR Administrator', 'hr@example.com', 'Human Resources', 'HR Manager');
+('hradmin', 'password', 'hr', 'HR Administrator', 'hr@example.com', 'Human Resources', 'HR Manager');
 
--- Insert sample employees
+-- Insert sample employees with plain password '0010'
 INSERT INTO `users` (`username`, `password`, `role`, `fullname`, `email`, `department`, `position`, `hire_date`) VALUES
 ('mohammed', '0010', 'employee', 'John Doe', 'john@example.com', 'Engineering', 'Software Developer', '2022-01-15'),
 ('asim', '0010', 'employee', 'Alice Smith', 'alice@example.com', 'Marketing', 'Marketing Specialist', '2022-03-20'),
@@ -71,5 +71,3 @@ INSERT INTO `attendance` (`user_id`, `date`, `time_in`, `time_out`, `status`) VA
 (2, '2025-04-14', '08:50:00', '17:00:00', 'present'),
 (3, '2025-04-14', '08:45:00', '17:10:00', 'present'),
 (4, '2025-04-14', NULL, NULL, 'absent');
-
--- Note: All passwords are 'password' using bcrypt hash
