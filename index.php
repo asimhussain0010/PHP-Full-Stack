@@ -6,7 +6,7 @@ include_once 'includes/header.php';
 <div class="row justify-content-center my-5">
     <div class="col-md-8">
         <div class="jumbotron text-center">
-            <h1 class="display-4">Welcome to Simple MIS</h1>
+            <h1 class="display-4">Welcome to Simple ERP</h1>
             <p class="lead">A simple management information system for managing employees, leave requests, and attendance.</p>
             <hr class="my-4">
             <p>Please select your role to continue:</p>
