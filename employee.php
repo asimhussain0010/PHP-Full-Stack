@@ -55,7 +55,7 @@ while ($row = $leaveCounts->fetch_assoc()) {
         <div class="profile-section">
             <h4>My Profile</h4>
             <hr>
-            <p><strong>Full Name:</strong> <?php echo $user['fullname']; ?></p>
+            <p><strong>Full Name:</strong> <?php echo $user['Fullname']; ?></p>
             <p><strong>Email:</strong> <?php echo $user['email']; ?></p>
             <p><strong>Department:</strong> <?php echo $user['department']; ?></p>
             <p><strong>Position:</strong> <?php echo $user['position']; ?></p>
