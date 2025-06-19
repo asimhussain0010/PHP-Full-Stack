@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "HOME Dashboard";
+$pageTitle = "HOME";
 include_once 'includes/header.php';
 ?>
 
