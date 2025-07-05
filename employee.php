@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Employee Home";
+$pageTitle = "Employee Dashboard";
 include_once 'includes/header.php';
 
 // Check if user is logged in and is an employee
