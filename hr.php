@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "HR HOME";
+$pageTitle = "HR HOME and";
 include_once 'includes/header.php';
 
 // Check if user is logged in and is HR
