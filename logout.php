@@ -1,7 +1,6 @@
 <?php
 // Include the config file to ensure session is started
-require_once 'includes/config.php';
-require_once 'includes/functions.php';
+
 
 // Unset all session variables
 $_SESSION = array();
