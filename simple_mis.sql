@@ -1,4 +1,5 @@
 -- Create the database
+CREATE DATABASE IF NOT EXISTS `simple_mis`;
 USE `simple_mis`;
 
 -- Create users table
