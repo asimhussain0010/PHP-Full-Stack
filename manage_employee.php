@@ -1,6 +1,5 @@
 mployees<?php
 $pageTitle = "Manage Employees";
-include_once 'includes/header.php';
 
 // Check if user is logged in and is HR
 requireRole('hr');
