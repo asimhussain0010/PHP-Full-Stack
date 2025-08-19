@@ -1,5 +1,6 @@
 <?php
 // Start session
+session_start();
 
 // Turn on all error reporting
 error_reporting(E_ALL);
