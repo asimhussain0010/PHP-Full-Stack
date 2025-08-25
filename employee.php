@@ -81,4 +81,3 @@ while ($row = $leaveCounts->fetch_assoc()) {
                             </div>
                             <div class="col">
                                 <div
-
