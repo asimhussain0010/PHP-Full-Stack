@@ -1,4 +1,3 @@
-
 <?php
 $pageTitle = "Employee HOME";
 include_once 'includes/header.php';
