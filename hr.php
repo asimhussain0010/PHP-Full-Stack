@@ -130,4 +130,3 @@ $todayAbsences = countTodayAbsences($conn);
 </div>
 
 <?php include_once 'includes/footer.php'; ?>
-
