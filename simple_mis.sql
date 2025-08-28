@@ -71,7 +71,3 @@ INSERT INTO `attendance` (`user_id`, `date`, `time_in`, `time_out`, `status`) VA
 (2, '2025-04-14', '08:50:00', '17:00:00', 'present'),
 (3, '2025-04-14', '08:45:00', '17:10:00', 'present'),
 (4, '2025-04-14', NULL, NULL, 'absent');
-
-
-
-
