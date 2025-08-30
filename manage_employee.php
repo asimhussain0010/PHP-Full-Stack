@@ -6,7 +6,7 @@ include_once 'includes/header.php';
 requireRole('hr');
 
 // Initialize variables
-$id = $username = $password = $fullname = $email = $department = $position = $hire_date = 'hr';
+$id = $username = $password = $fullname = $email = $department = $position = $hire_date = '';
 $isEdit = false;
 
 // Check if this is an edit operation
