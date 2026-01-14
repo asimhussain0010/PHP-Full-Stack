@@ -1,7 +1,6 @@
 # StaffDesk
 
 **StaffDesk** is a simple, PHP-based HR and employee management system designed for learning and small-scale internal use.  
-It allows role-based access for **HR administrators** and **employees**, providing basic functionality such as attendance tracking, leave requests, and staff management.
 
 ---
 
@@ -40,6 +39,12 @@ It allows role-based access for **HR administrators** and **employees**, providi
 
 ---
 
+## Contributing
+
+- This project is intended primarily for learning purposes. Contributions and improvements are welcome.
+
+---
+
 ## Installation
 
 ```bash
@@ -48,8 +53,3 @@ Import the staffdesk.sql database file into your MySQL server.
 Configure database connection in config.php (update host, username, password).
 Run the application in your local server.
 Default Credentials (for testing)
-
----
-
-## Contributing
-This project is intended primarily for learning purposes. Contributions and improvements are welcome.
